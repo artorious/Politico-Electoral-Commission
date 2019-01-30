@@ -1,42 +1,163 @@
 body {
-    font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-header {
-    font-size: 100%;
-    text-align: center;
-}
-
-li {
-    float: left;
-}
-
-.top-nav {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    background: indigo;
+    
+}
+/* Hold summarys and links to services offered - Responsive Flex-box model */
+.hm-flex-container {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%); 
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.hm-flex-container .hm-pannel {
+    position: relative;
+    width: 250px;
+    height: 500;
+    background: #ccc;
+}
+
+.hm-flex-container .hm-pannel:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.hm-flex-container .hm-pannel .hm-thumb-half-pannel {
+    position: absolute;
+    width: 100%;
+    height: 250px;
     overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0;
 }
 
-.top-nav a {
-    display: block;
-    color: white;
+.hm-flex-container .hm-pannel:nth-child(odd) .hm-thumb-half-pannel {
+    bottom: 0;
+    left: 0;
+}
+
+.hm-flex-container .hm-pannel .hm-thumb-half-pannel img {
+    width: 100%;
+}
+
+.hm-flex-container .hm-pannel .hm-clear-half-pannel {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background: #262626;
+}
+
+.hm-flex-container .hm-pannel:nth-child(even) .hm-clear-half-pannel {
+    bottom: 0;
+    left: 0;
+}
+
+.hm-flex-container .hm-pannel:nth-child(1) .hm-clear-half-pannel {
+    background: #f16a70;
+}
+
+.hm-flex-container .hm-pannel:nth-child(2) .hm-clear-half-pannel {
+    background: #b1d877;
+}
+
+.hm-flex-container .hm-pannel:nth-child(3) .hm-clear-half-pannel {
+    background: violet;
+
+}
+
+.hm-flex-container .hm-pannel:nth-child(4) .hm-clear-half-pannel {
+    background: #4d4d4d;
+}
+
+.hm-flex-container .hm-pannel .hm-clear-half-pannel .hm-box-content {
+    position: absolute;
+    top: calc(50% - 16%);
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
     text-align: center;
-    padding: 14px 16px;
+    transition: 0.5s;
+}
+
+.hm-flex-container .hm-pannel:hover .hm-clear-half-pannel .hm-box-content {
+    top: calc(50%)
+}
+
+.hm-flex-container .hm-pannel .hm-clear-half-pannel .hm-box-content .fa {
+    font-size: 80px;
+    color: whitesmoke
+}
+
+.hm-flex-container .hm-pannel .hm-clear-half-pannel .hm-box-content h3 {
+    margin: 0;
+    padding: 0;
+    padding: 10px, 0;
+    color: whitesmoke;
+}
+
+.hm-flex-container .hm-pannel .hm-clear-half-pannel .hm-box-content a {
+    display: inline-block;
+    padding: 5px, 20px;
+    color: whitesmoke;
+    border: solid, 2px, whitesmoke;
     text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    transform: scale(0);
 }
 
-.top-nav a:hover {
-  background-color: #111;
+.hm-flex-container .hm-pannel:hover .hm-clear-half-pannel .hm-box-content a {
+    transform: scale(1)
 }
 
-.active {
-    background-color: skyblue;
+.hm-flex-container .hm-pannel .hm-clear-half-pannel .hm-box-content a:hover {
+    background: whitesmoke;
+    color: #262626;
+
 }
 
-  
+@media (max-width: 1000px) {
+    .hm-flex-container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .hm-flex-container .hm-pannel {
+        height: 250px;
+    }
+    .hm-flex-container .hm-pannel .hm-thumb-half-pannel {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hm-flex-container {
+        display: initial;
+    }
+    .hm-flex-container .hm-pannel {
+        width: 50%;
+        height: 250px;
+        float: left;
+    }    
+}
+
+@media (max-width: 480px) {
+    .hm-flex-container {
+        top: 0;
+        left: 0;
+        transform: translate(0)
+    }
+    .hm-flex-container .hm-pannel {
+        width: 100%;
+        height: 250px;
+        float: none;
+    }    
+}

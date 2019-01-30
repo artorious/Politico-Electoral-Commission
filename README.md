@@ -3,5 +3,7 @@
 Politico enables citizens to  give their mandate to politicians running for differentgovernment offices.
 
 ## Attribution
-Andela Developer Challenge
+[Andela Developer Challenge ](https://drive.google.com/file/d/1h_UIO7jP1wyaSfOSHMzRByFyL6dpFsYj/view)
+
+Design Inspired by the [Electoral Commision](https://www.electoralcommission.org.uk/) website.
 
