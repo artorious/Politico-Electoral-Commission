@@ -5,9 +5,64 @@ body {
     
 }
 
-header{
-    width: 200vh;
+nav {
+    width: 100%;
 }
+
+li {
+    float: left;
+}
+
+footer {
+    background: #4d4d4d;
+    position: inherit;
+    display: block;
+    
+}
+
+.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4d4d4d;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+}
+
+/* Style the search box inside the navigation bar */
+.top-nav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 5%;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+
+.top-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+  background-color: #111;
+}
+
+.active {
+    background-color: skyblue;
+}
+
+.float-right-nav {
+    float: right;
+}
+
 /* Hold summarys and links to services offered - Responsive Flex-box model */
 .hm-flex-container {
     position: absolute;
@@ -142,6 +197,9 @@ header{
 }
 
 @media (max-width: 768px) {
+    nav {
+        display: none;
+    }
     .hm-flex-container {
         display: initial;
     }
@@ -149,11 +207,11 @@ header{
         width: 50%;
         height: 250px;
         float: left;
-    }    
+    }   
 }
 
 @media (max-width: 480px) {
-    header {
+    nav {
         display: none;
     }
     .hm-flex-container {
@@ -167,35 +225,3 @@ header{
         float: none;
     }    
 }
-
-
-li {
-    float: left;
-}
-
-.top-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4d4d4d;
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0;
-}
-
-.top-nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.top-nav a:hover {
-  background-color: #111;
-}
-
-.active {
-    background-color: skyblue;
-  }
