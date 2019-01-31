@@ -5,6 +5,7 @@ Politico enables citizens to  give their mandate to politicians running for diff
 ## Features
 
 * User landing page
+* User profile page
 
 
 
