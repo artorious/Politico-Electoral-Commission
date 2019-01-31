@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Politico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" media="screen" href="static/main.css"/>
+  <link 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet">
+  <script src="static/main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Politico Electoral Commission</h1>
+    <p> <strong>Sign-up as a user</strong> to interact with the application.
+      Get access to online voter registration, candidate nominations, voting 
+      and access to current/past election information.
+    </p>
+  </header>
+  <ul class="top-nav">
+    <li><a class="active" href="#">Voter Sign Up</a></li>
+    <li><a href="index.html">
+      <i class="fa fa-home" aria-hidden="true" > Home </i>
+    </a></li>
+    <li class="float-right-nav"><a href="#about_us.html">About Us</a></li>
+    <li class ="float-right-nav"><a href="#faqs.html" >FAQs</a></li>
+  </ul>
+  <hr>
+  <div class="form-container" class="user-voter">
+    <form action="#user_profile.html">
+      <fieldset>
+        <legend>User Sign-up</legend>
+        <div>
+          <div class="col-25">
+            <label for="firstname">First Name:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="firstname" name="user_firstname" 
+              placeholder="John" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="lastname">Last Name:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lastname" name="user_lastname" 
+              placeholder="Smith" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="username">Username:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="username" name="user_name" 
+              placeholder="johnsmith" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="user_email">Email:</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="user_email" name="user_email" 
+              placeholder="JohnSmith@email.com" required autofocus
+            >
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="user_cell">Mobile No:</label>
+          </div>
+          <div class="col-75">
+            <input type="tel" id="user_cell" name="user_cell" placeholder="0727161173" 
+              required autofocus
+            >    
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="user_password">Password:</label>
+          </div>
+          <div class="col-75">
+            <input id="user_password" type="password" name="user_password" 
+              autocomplete="off" required autofocus placeholder="********"
+            >
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="cofirm_password">Confirm Password:</label>
+          </div>
+          <div class="col-75">
+            <input id="Cofirm_password" type="password" name="confirm_password" 
+              autocomplete="off" required autofocus placeholder="********"
+            >
+          </div>
+        </div>
+        <div>
+          <input type="submit" value="Create Account" formaction="#user_profile.html">
+        </div>
+      </fieldset>
+      <div>
+          <p>
+            Already have an account? 
+            <a href="#user_signin.html">Sign In</a>.
+          </p>
+        </div>
+    </form>
+  </div>
+  <hr>
+  <footer>
+    | <a href="#" ><i class="fa fa-mobile" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-envelope-o" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-twitter" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-facebook-official" aria-hidden="true"></i></a>  |
+    <br>
+    <p>&copy;Politico Electoral Commission 2019.</p>
+  </footer>
+</body>
+</html>
+
