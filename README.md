@@ -4,15 +4,18 @@ Politico enables citizens to  give their mandate to politicians running for diff
 
 ## Features
 
-* User landing page
+* Homepage - User's landing page
+* User Signup
+* User profile page
 
 
+### Attribution
+* Product Specifications - [Andela Developer Challenge ](https://drive.google.com/file/d/1h_UIO7jP1wyaSfOSHMzRByFyL6dpFsYj/view)
+* Websites that inpired the design 
+  * [Electoral Commision](https://www.electoralcommission.org.uk/) website.
+  * [Independent Electoral and Boundaries Commission](https://wwww.iebc.or.ke)
 
-## Attribution
-[Andela Developer Challenge ](https://drive.google.com/file/d/1h_UIO7jP1wyaSfOSHMzRByFyL6dpFsYj/view)
-Design Inspired by the [Electoral Commision](https://www.electoralcommission.org.uk/) website.
-
-
-[Mozilla- MDN Docs](https://developer.mozilla.org/en-US/docs/Learn)
-[w3schools](https://www.w3schools.com/)
-[Responsive box model](https://www.youtube.com/watch?v=ZA9kwht8n9Q)
+* Development Resources
+  * [Mozilla- MDN Docs](https://developer.mozilla.org/en-US/docs/Learn)
+  * [w3schools](https://www.w3schools.com/)
+  * Flex Box Grid - [Responsive box model](https://www.youtube.com/watch?v=ZA9kwht8n9Q)
