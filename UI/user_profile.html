@@ -11,6 +11,11 @@
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
     rel="stylesheet">
   <script src="static/main.js"></script>
+  <script>
+    function candidatesPerPosition() {
+      location.replace("candidates_per_position.html")
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -74,122 +79,148 @@
     </h3>
     <hr>
     <a href="political_parties.html"><button>Political Parties</button></a>
-    <a href="#open_positions.html"><button>View Open Positions</button></a>
+    <!-- <a href="#open_positions.html"><button>View Open Positions</button></a> -->
     <a href="#voting_portal.html"><button>Online Voting portal</button></a>
     <a href="#register_as_voter.html"><button>Register as a voter</button></a>
+    <select name="candidates_per_position" selected="open_positions" onchange="candidatesPerPosition()">
+        <option value="open_positions">Candidates per Office</option>
+        <option value="presidential">Presidential</option>
+        <option value="gubenatorial">Gubenatorial</option>
+        <option value="national_assembly">National Assembly</option>
+        <option value="senate">Senate</option>
+        <option value="count_assemly">Member of County Assembly</option>
+        <option value="ward_alevel">Women's Representative</option>     
+      </select> 
     <hr>
     <h3>Voting History - Past Elections</h3>
     <hr> 
     <table>
-      <th colspan="4">2018 General Elections</th>
+      <th colspan="5">2018 General Elections</th>
       <tr>
         <th>Position</th>
         <th>Juriscdiction</th>
         <th>Prefered candidate</th>
+        <th>Political Party</th>
         <th>Result</th>
       </tr>
       <tr>
         <td>President of Republic</td>
         <td>National</td>
         <td>Kendrick Lamar</td>
+        <td> K.A.D.U</td>
         <td><i class="fa fa-check" aria-hidden="true">Won</i></td>
       </tr>
       <tr>
         <td>County Governer</td>
         <td>Nairobi County</td>
         <td>Jayrock Smith</td>
+        <td> K.A.N.U</td>
         <td><i class="fa fa-check" aria-hidden="true">Won</i></td>
       </tr>
       <tr>
         <td>Senator</td>
         <td>Nairobi County</td>
         <td>Dwayne Johnson</td>
+        <td> P.P.F</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
       </tr>
       <tr>
         <td>National Assembly Rep.</td>
         <td>Nairobi Constituency</td>
         <td>Joeseph Cole</td>
+        <td> K.A.N.U</td>
         <td><i class="fa fa-check" aria-hidden="true">Won</i></td>
       </tr>
       <tr>
         <td>County Assembly Rep.</td>
         <td>Nairobi West Ward</td>
         <td>Aggrey Clackson</td>
+        <td> K.A.N.U</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
       </tr>    
     </table>
     <hr>
     <table>
-      <th colspan="4">2016 By-elections</th>
+      <th colspan="5">2016 By-elections</th>
       <tr>
         <th>Position</th>
         <th>Juriscdiction</th>
         <th>Prefered candidate</th>
+        <th>Political Party</th>
         <th>Result</th>
       </tr>
       <tr>
         <td>County Governer</td>
         <td>Nairobi County</td>
         <td>Jayrock Smith</td>
+        <td> K.A.N.U</td>
         <td><i class="fa fa-check" aria-hidden="true">Won</i></td>
       </tr>
       <tr>
         <td>Senator</td>
         <td>Nairobi County</td>
         <td>William Maher</td>
+        <td> T.N.A</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
       </tr>
       <tr>
         <td>National Assembly Rep</td>
         <td>Nairobi Constituency</td>
-        <td>John Ollive</td>
+        <td>John Olliver</td>
+        <td> Labour</td>
         <td><i class="fa fa-check" aria-hidden="true">Won</i></td>
       </tr>
       <tr>
         <td>County Assembly Rep.</td>
         <td>Nairobi West Ward</td>
         <td>David Chappelle</td>
+        <td> K.A.N.U</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
       </tr>    
     </table>
       <hr>
     <table>
-      <th colspan="4">2013 General Elections</th>
+      <th colspan="5">2013 General Elections</th>
       <tr>
         <th>Position</th>
         <th>Juriscdiction</th>
         <th>Prefered candidate</th>
+        <th>Political Party</th>
         <th>Result</th>
       </tr>
       <tr>
         <td>President of the Republic</td>
         <td>National</td>
         <td>Duckworth Nasir</td>
+        <td> P.N.U</td>
         <td><i class="fa fa-check" aria-hidden="true">Won</i></td>
       </tr>
       <tr>
         <td>County Governer</td>
         <td>Nairobi County</td>
         <td>Sean Carter</td>
+        <td> Wiper</td>
         <td><i class="fa fa-check" aria-hidden="true">Won</i></td>
       </tr>
       <tr>
         <td>Senator</td>
         <td>Nairobi County</td>
         <td>Richard Dawkins</td>
+        <td> K.A.N.U</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
       </tr>
       <tr>
         <td>National Assembly Rep</td>
         <td>Nairobi Constituency</td>
         <td>Richard Gerveis</td>
+        <td> O.D.M</td>
         <td><i class="fa fa-check" aria-hidden="true">Won</i></td>
       </tr>
       <tr>
         <td>County Assembly Rep</td>
         <td>Nairobi West Ward</td>
         <td>Trevor Noah</td>
+        <td> K.A.N.U</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
       </tr>   
     </table>
