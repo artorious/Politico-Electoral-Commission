@@ -13,86 +13,111 @@
   <script src="static/main.js"></script>
 </head>
 <body>
-<div>
-  
-</div>
-<nav>
-  <ul  class="top-nav">
-      
-    <li><a href="#" class="active">
-      <i class="fa fa-home fa-lg" aria-hidden="true" > Home </i>
-    </a></li>
-    <li><a href="user_signup.html">
-      <i class="fa fa-user-plus " aria-hidden="true"> Voters</i>
-    </a></li>
-    <li><a href="#user_signup.html">
-      <i class="fa fa-user-plus" aria-hidden="true"> Candidates</i>
-    </a></li>
-    <li><a href="#user_signup.html">
-      <i class="fa fa-user-plus" aria-hidden="true"> Admin</i>
-    </a></li>
-    <li class="float-right-nav"><a href="#about_us.html">About Us</a></li>
-    <li class ="float-right-nav"><a href="#faqs.html" >FAQs</a></li>
-  </ul>
-</nav>
-  <!-- Hold summarys and links to app services : Flex grid with a two box pannel --->
-  <div class="hm-flex-container">
-    <div class="hm-pannel">
-      <div class="hm-thumb-half-pannel">
-        <img src="static/register_to_vote.png">
+  <header>
+    <h1>Politico Electoral Commission</h1>
+  </header>
+  <hr>
+    <ul  class="top-nav">        
+      <li><a href="#" class="active">
+        <i class="fa fa-home fa-lg" aria-hidden="true" > Home </i>
+      </a></li>
+      <li><a href="user_signup.html">
+        <i class="fa fa-user-plus " aria-hidden="true"> Voters</i>
+      </a></li>
+      <li><a href="user_signup.html">
+        <i class="fa fa-user-plus" aria-hidden="true"> Candidates</i>
+      </a></li>
+      <li><a href="user_signup.html">
+        <i class="fa fa-user-plus" aria-hidden="true"> Admin</i>
+      </a></li>
+      <li class="float-right-nav"><a href="#about_us.html">About Us</a></li>
+      <li class ="float-right-nav"><a href="#faqs.html" >FAQs</a></li>
+    </ul>
+    <div class="hm-flex-container">
+      <div>
+        <img src="static/register_to_vote.png" class="hm-thumb">
       </div>
-      <div class="hm-clear-half-pannel">
-        <!-- Description and icon-->
-        <div class="hm-box-content">
-          <i class="fa fa-pencil" aria-hidden="true"></i>
-          <h3>Citizen Registration & Voting Portal</h3>
-          <a href="#user_signin.html">Voter Sign In</a>
-        </div>
+    <div class="hm-text-box-red">
+      <i class="fa fa-pencil fa-5x" aria-hidden="true"></i>
+      <h3>Citizen Registration & Voting Portal</h3>
+      <p>
+        You can register to vote or get the information on how
+        to change your details. Get access to information on all 
+        registered Political parties, all politicians running for
+        office.Keep a detailed record of your voting history.
+      </p>
+      <a href="user_signin.html"><button class="btn-hm-page">Register & Vote</button></a>
+      </div>    
+      <div>
+        <img src="static/podium_shot.jpg" class="hm-thumb">
       </div>
+      <div class="hm-text-box-violet">
+        <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+        <h3>Political parties & Candidates</h3>
+        <p>
+          Party or campaigner? All qualified expressions of interest for
+          elective posts will be processed, guided by the rules that
+          control the financial activities of political parties and other
+          campaigners at major elections and referendums.
+        </p>
+        <a href="user_signin.html"><button class="btn-hm-page">Run for Office</button></a>
+      </div>
+      <div>
+        <img src="static/parties.png" class="hm-thumb">
+      </div>
+      <div class="hm-text-box-green">
+        <i class="fa fa-calendar fa-5x" aria-hidden="true"></i>
+        <h3>Upcoming elections & Referendums</h3>
+        <p>
+          Local by-elections can take place at any time of the year.
+          Look up our calender for all running by-elections in the 
+          different regions of the country.
+          On Thursday 2 May 2019, local government elections are taking
+          palce in 249 local authority areas in the country and for all
+          11 local councils.
+        </p>
+        <a href="user_signin.html"><button class="btn-hm-page">View Events</button></a>
+      </div>
+      <div >
+        <img src="static/us.jpg" class="hm-thumb">
+      </div>
+
+    <div class="hm-text-box-dark">
+        <i class="fa fa-hand-peace-o fa-5x" aria-hidden="true"></i>
+      <h3>Politico Electoral Commission</h3>
+      <p>
+        We are an independent regulatory agency that was founded in 
+        2011 by the Constitution of our republic. The Commission is 
+        responsible for conducting or supervising referendum and 
+        elections to any elective body or office established by the 
+        Constitution. 
+      </p>
+      <a href="#contact_us.html"><button class="btn-hm-page">Read more about us</button></a>
     </div>
 
-    <div class="hm-pannel">
-      <div class="hm-thumb-half-pannel">
-        <img src="static/podium_shot.jpg">
-      </div>
-      <div class="hm-clear-half-pannel">
-
-        <div class="hm-box-content">
-          <i class="fa fa-calendar" aria-hidden="true"></i>
-          <h3>Electoral Management</h3>
-          <a href="#">Admin Sign In</a>
-        </div>
-      </div>
+    <div>
+      <img src="static/vote.png" class="hm-thumb">
     </div>
-
-    <div class="hm-pannel">
-      <div class="hm-thumb-half-pannel">
-        <img src="static/parties.png">
-      </div>
-      <div class="hm-clear-half-pannel">
-        <div class="hm-box-content">
-            <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
-          <h3>Candidates & Political Parties</h3>
-          <a href="#user_signup.html">Candidate sign In</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="hm-pannel">
-        <div class="hm-thumb-half-pannel">
-          <img src="static/us.jpg">
-        </div>
-        <div class="hm-clear-half-pannel">
-          <div class="hm-box-content">
-            <i class="fa fa-users" aria-hidden="true"></i>
-            <h3>Politico Electoral Commission</h3>
-            <a href="#contact_us.html">Contact Us</a>
-          </div>
-        </div>
-      </div>
-      
   </div>
-  </div>
+  <hr>
+  <footer>
+    | <a href="#" ><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>  |
+    <br>
+    <p>&copy;Politico Electoral Commission 2019.</p>
+  </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
 
