@@ -15,6 +15,23 @@ header {
 
 a {
     text-decoration: none;
+    color: #4d4d4d;
+}
+
+button {
+    margin: 5px;
+    background-color: #4d4d4d;
+    border-radius: 5px;
+    border: none;
+    color: #8cdcda;
+    padding: 5px 5px;  
+    cursor: pointer;
+    font-size: 100%; */
+}
+
+button:hover {
+    background-color: #b1d877;
+    color: #4d4d4d;
 }
 
 li {
@@ -40,7 +57,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #8cdcda;
-    color: black;
+    color: #4d4d4d;
+
 }
 
 input[type=text], input[type=password], input[type=email], input[type=tel] {
@@ -68,6 +86,34 @@ footer {
 
 footer a, form a {
     color: #b1d877;
+}
+
+table {
+    border-spacing: 1px;
+    width: 100%;
+    border-collapse: separate;
+}
+
+th {
+    background-color:#4d4d4d;
+    color: #8cdcda;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+tr:nth-child(even) {
+    background-color: #8cdcda;
+}
+
+tr:hover {
+    background-color: grey;
 }
 
 .top-nav {
@@ -239,7 +285,7 @@ footer a, form a {
 }
 
 @media screen and (min-width: 769px){
-    .form-container {
+    .form-container, .profile-container{
         width: 60%;        
     }
 }
@@ -288,5 +334,16 @@ footer a, form a {
         height: 250px;
         float: none;
     }    
+}
+
+.profile-container {
+    border-color: #4d4d4d;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto; 
+}
+
+.checked {
+    color: #b1d877;
 }
 
