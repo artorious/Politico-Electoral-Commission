@@ -7,6 +7,8 @@ Politico enables citizens to  give their mandate to politicians running for diff
 * Homepage - User's landing page
 * User Signup
 * User profile page
+* View running candidates per office
+* View all registerd political parties.
 
 
 ### Attribution
@@ -18,4 +20,4 @@ Politico enables citizens to  give their mandate to politicians running for diff
 * Development Resources
   * [Mozilla- MDN Docs](https://developer.mozilla.org/en-US/docs/Learn)
   * [w3schools](https://www.w3schools.com/)
-  * Flex Box Grid - [Responsive box model](https://www.youtube.com/watch?v=ZA9kwht8n9Q)
+
