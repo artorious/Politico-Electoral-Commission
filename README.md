@@ -5,15 +5,17 @@ Politico enables citizens to  give their mandate to politicians running for diff
 ## Features
 
 * Homepage - User's landing page
-* User Signup
-* User profile page
-* View running candidates per office
-* View all registerd political parties.
+* User Signup - Registration to vote interact with app features
+  * User's' profile page
+  * View all candidates running per office
+  * View all registerd political parties.
+  * Vote in the current/ongoing election
+
 
 
 ### Attribution
 * Product Specifications - [Andela Developer Challenge ](https://drive.google.com/file/d/1h_UIO7jP1wyaSfOSHMzRByFyL6dpFsYj/view)
-* Websites that inpired the design 
+* Websites that inpired the design
   * [Electoral Commision](https://www.electoralcommission.org.uk/) website.
   * [Independent Electoral and Boundaries Commission](https://wwww.iebc.or.ke)
 
