@@ -12,6 +12,7 @@ Politico enables citizens to  give their mandate to politicians running for diff
   * Vote in the current/ongoing election
   * reset user password
   * View and apply for open positions
+  * Petition election results
 * Admin Features
   * All users features
   * Create a political party
