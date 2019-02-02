@@ -16,6 +16,10 @@ function candidates_per_position() {
     location.replace("candidates_per_position.html")
 }
 
+function candidates_per_position_admin() {
+    location.replace("candidates_per_position_admin.html")
+}
+
 function confirm_presidential_vote() {
    if (confirm("Are you sure of your choice for president? Press O.K to continue.")) {
         alert('Vote for president cast!')

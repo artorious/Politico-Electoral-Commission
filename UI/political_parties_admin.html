@@ -18,8 +18,8 @@
     <h2>Political Parties</h2>
   </header>
   <ul class="top-nav">
-    <li><a class="active" href="#">Parties</a></li>
-    <li><a href="user_profile.html" title="User Profile">
+    <li><a class="active" href="#">Parties-Admin</a></li>
+    <li><a href="admin_profile.html" title="Admin Profile">
       <i class="fa fa-user" aria-hidden="true"></i>
     </a></li>
     <li><a href="index.html" title="Home page">
@@ -34,6 +34,20 @@
       <input type="text" placeholder="Search.." name="website_search">
     </li>
   </ul>
+  <hr>
+  <div>
+    <a href="create_new_party.html"><button> Create New Party</button></a>
+    <select name="candidates_per_position" selected="open_positions" onchange="candidates_per_position_admin()">
+        <option value="open_positions">Candidates Per Office</option>
+        <option value="presidential">Presidential</option>
+        <option value="gubenatorial">Gubenatorial</option>
+        <option value="national_assembly">National Assembly</option>
+        <option value="senate">Senate</option>
+        <option value="count_assemly">Member of County Assembly</option>
+        <option value="ward_alevel">Women's Representative</option>
+      </select>
+  </div>
+
   <hr>
   <div class="boxy-flex-container">
     <div>
