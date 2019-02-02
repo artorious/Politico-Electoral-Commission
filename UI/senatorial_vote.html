@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Politico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" media="screen" href="static/main.css"/>
+  <link
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet">
+  <script src="static/main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Politico Electoral Commission</h1>
+  </header>
+  <ul class="top-nav">
+    <li><a class="active" href="#">senatorial Vote</a></li>
+    <li><a href="user_profile.html" title="User Profile">
+      <i class="fa fa-user" aria-hidden="true"></i>
+    </a></li>
+    <li><a href="index.html" title="Sign Out">
+      <i class="fa fa-sign-out fa-lg" aria-hidden="true"></i>
+    </a></li>
+    <li><a href="index.html" title="Home page">
+      <i class="fa fa-home fa-lg" aria-hidden="true" ></i>
+    </a></li>
+    <li class="float-right-nav"><a href="#about_us.html">About Us</a></li>
+    <li class ="float-right-nav"><a href="#faqs.html" >FAQs</a></li>
+  </ul>
+  <hr>
+  <div  class="form-container">
+    <form id="senatorial_vote" onsubmit="return confirm_senatorial_vote()" action="user_profile.html">
+      <fieldset>
+        <legend><h2>Vote: Senator Nairobi</h2></legend>
+        <label>
+          <input type="radio" name="senatorial" value="okore" checked>
+          <img class="btn-image" src="static/scheaffer.jpeg">
+          <h3>Scheaffer Okore - Peoples Congress  |</h3>
+        </label>
+        <label>
+          <input type="radio" name="senatorial" value="bonni" checked>
+          <img class="btn-image" src="static/bonni.jpeg">
+          <h3>Boniface Mwangi - T.N.A  </h3>
+        </label>
+        <label>
+          <input type="radio" name="senatorial" value="ali" checked>
+          <img class="btn-image" src="static/ali.jpeg">
+          <h3>Mohammed Ali - Jubilee</h3>
+        </label>
+        <div class="col-75">
+          <input type="submit" value="submit choice">
+        </div>
+
+
+      </fieldset>   <button onclick="confirm_skipping_vote()">
+          Skip without voting
+        </button>
+    </form>
+  </div>
+
+  <hr>
+  <footer>
+    | <a href="#" ><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>  |
+    <br>
+    <p>&copy;Politico Electoral Commission 2019.</p>
+  </footer>
+</body>
+</html>
+

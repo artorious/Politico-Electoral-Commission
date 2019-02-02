@@ -5,11 +5,12 @@ Politico enables citizens to  give their mandate to politicians running for diff
 ## Features
 
 * Homepage - User's landing page
-* User Signup
-* User profile page
-* View running candidates per office
-* View all registerd political parties.
-* reset user password
+* User Signup - Registration to vote interact with app features
+  * User's' profile page
+  * View all candidates running per office
+  * View all registerd political parties.
+  * Vote in the current/ongoing election
+  * reset user password
 
 
 ### Attribution
