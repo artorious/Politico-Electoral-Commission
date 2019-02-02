@@ -7,15 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" media="screen" href="static/main.css"/>
-  <link 
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+  <link
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     rel="stylesheet">
   <script src="static/main.js"></script>
-  <script>
-    function candidatesPerPosition() {
-      location.replace("candidates_per_position.html")
-    }
-  </script>
 </head>
 <body>
   <header>
@@ -37,15 +32,15 @@
     <h2>
       <i class="fa fa-user fa-5x" aria-hidden="true"></i>
       artorious |<a href="#" title="Reset Password">
-      <i class="fa fa-cog" aria-hidden="true"></i></a> 
+      <i class="fa fa-cog" aria-hidden="true"></i></a>
     </h2>
-    <h2>Arthur Ngondo: 
+    <h2>Arthur Ngondo:
         <span title="Voter history ranking">
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star "></span>
-            <span class="fa fa-star "></span>      
+            <span class="fa fa-star "></span>
           </span>
     </h2>
     <hr>
@@ -63,7 +58,7 @@
         </span>     |
         <span>
           <a href="#" title="Read messages">
-            <i class="fa fa-envelope-open fa-2x" aria-hidden="true"> 6 </i> 
+            <i class="fa fa-envelope-open fa-2x" aria-hidden="true"> 6 </i>
           </a>
         </span>     |
         <span>
@@ -79,21 +74,20 @@
     </h3>
     <hr>
     <a href="political_parties.html"><button>Political Parties</button></a>
-    <!-- <a href="#open_positions.html"><button>View Open Positions</button></a> -->
-    <a href="#voting_portal.html"><button>Online Voting portal</button></a>
-    <a href="#register_as_voter.html"><button>Register as a voter</button></a>
-    <select name="candidates_per_position" selected="open_positions" onchange="candidatesPerPosition()">
+    <a href="voting_portal.html"><button>Online Voting Portal</button></a>
+    <a href="#registration_change.html"><button>Change register details</button></a>
+    <select name="candidates_per_position" selected="open_positions" onchange="candidates_per_position()">
         <option value="open_positions">Candidates per Office</option>
         <option value="presidential">Presidential</option>
         <option value="gubenatorial">Gubenatorial</option>
         <option value="national_assembly">National Assembly</option>
         <option value="senate">Senate</option>
         <option value="count_assemly">Member of County Assembly</option>
-        <option value="ward_alevel">Women's Representative</option>     
-      </select> 
+        <option value="ward_alevel">Women's Representative</option>
+      </select>
     <hr>
     <h3>Voting History - Past Elections</h3>
-    <hr> 
+    <hr>
     <table>
       <th colspan="5">2018 General Elections</th>
       <tr>
@@ -137,7 +131,7 @@
         <td>Aggrey Clackson</td>
         <td> K.A.N.U</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
-      </tr>    
+      </tr>
     </table>
     <hr>
     <table>
@@ -176,7 +170,7 @@
         <td>David Chappelle</td>
         <td> K.A.N.U</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
-      </tr>    
+      </tr>
     </table>
       <hr>
     <table>
@@ -222,7 +216,7 @@
         <td>Trevor Noah</td>
         <td> K.A.N.U</td>
         <td><i class="fa fa-times" aria-hidden="true"> Lost</i></td>
-      </tr>   
+      </tr>
     </table>
   </div>
   <hr>
