@@ -1,3 +1,16 @@
+function save_new_password() {
+    if (confirm("Save new passowrd? Press O.K to continue.")) {
+        alert("New password Saved")
+   }
+}
+
+
+function cancel_password_reset() {
+    if (confirm("Cancel passowrd reset ? Press O.K to continue.")) {
+        alert("Cancelling password")
+   }
+}
+
 
 function candidates_per_position() {
     location.replace("candidates_per_position.html")

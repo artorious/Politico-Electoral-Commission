@@ -10,7 +10,7 @@ Politico enables citizens to  give their mandate to politicians running for diff
   * View all candidates running per office
   * View all registerd political parties.
   * Vote in the current/ongoing election
-
+  * reset user password
 
 
 ### Attribution
