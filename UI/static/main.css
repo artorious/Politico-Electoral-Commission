@@ -173,14 +173,14 @@ select {
 
 .boxy-flex-container > div {
     background-color: #f1f1f1;
-    width: 390px;
+    width: 380px;
     margin: 10px;
     text-align: center;
     float: center;
 }
 
 .sm-thumb {
-    width: 370px;
+    width: 360px;
     height: 300px;
 }
 
@@ -278,7 +278,6 @@ select {
         width: 60%;
     }
 }
-
 
 .btn-image {
     width: 250px;
