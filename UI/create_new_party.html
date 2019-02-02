@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Politico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" media="screen" href="static/main.css"/>
+  <link
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet">
+  <script src="static/main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Politico Electoral Commission</h1>
+    <p> <strong>Sign-up as a user</strong> to interact with the application.
+      Get access to online voter registration, candidate nominations, voting
+      and access to current/past election information.
+    </p>
+  </header>
+  <ul class="top-nav">
+    <li><a class="active" href="#">Create Party</a></li>
+    <li><a href="index.html">
+      <i class="fa fa-home fa-lg" aria-hidden="true" ></i>
+    </a></li>
+    <li><a href="admin_profile.html" title="Admin Profile">
+      <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+    </a></li>
+
+    <li class="float-right-nav"><a href="#about_us.html">About Us</a></li>
+    <li class ="float-right-nav"><a href="#faqs.html" >FAQs</a></li>
+  </ul>
+  <hr>
+  <div class="form-container" class="user-voter">
+    <form action="user_profile.html">
+      <fieldset>
+        <legend>Create Party</legend>
+        <div>
+          <div class="col-25">
+            <label for="party_name">PartyName:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="party_name" name="party_name"
+              placeholder="Name of Party" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="party_symbol">Party Symbol:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="party_symbol" name="party_symbol"
+              placeholder="Description goes hee" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="elected_members">Elected Members:</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="elected_members" name="elected_members"
+              placeholder="Integer" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="nominated_members">Nominated Members:</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="nominated_members" name="nominated_members"
+              placeholder="Integer" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="total_members">Party Members:</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="total_members" name="total_members"
+              placeholder="Integer" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="chairperson">Chairperson:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="chairperson" name="chairperson"
+              placeholder="Name" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="deputychairperson">Deputy Chairperson:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="deputychairperson" name="deputychairperson"
+              placeholder="Name" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="secretary">Party Secretay:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="secretary" name="secretary"
+              placeholder="Name" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="spokesperson">Spokesperson:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="spokesperson" name="spokesperson"
+              placeholder="Name" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="chiefwhip">Chief Whip:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="chiefwhip" name="chiefwhip"
+              placeholder="Name" required autofocus>
+          </div>
+        </div>
+
+        <div>
+          <div class="col-25">
+            <label for="party_email">Party Email:</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="party_email" name="party_email"
+              placeholder="info@partyname.com" required autofocus
+            >
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="party_cell">Mobile No:</label>
+          </div>
+          <div class="col-75">
+            <input type="tel" id="party_cell" name="party_cell" placeholder="0727161173"
+              required autofocus
+            >
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="pysical_addr">Head Office':</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="pysical_addr" name="pysical_addr"
+              placeholder="Pysical address" required autofocus>
+          </div>
+        </div>
+        <div>
+          <div class="col-25">
+            <label for="party_logo">Party Logo:</label>
+          </div>
+          <div class="col-75"><input type="file" name="pic" accept="image/*">
+          </div>
+
+        </div>
+
+        <div>
+          <input type="submit" value="Create Party" formaction="admin_profile.html">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <hr>
+  <footer>
+    <a href="#" ><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>  |
+    <a href="#" ><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>  |
+    <br>
+    <p>&copy;Politico Electoral Commission 2019.</p>
+  </footer>
+</body>
+</html>
+
