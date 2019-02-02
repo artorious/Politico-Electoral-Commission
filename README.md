@@ -15,7 +15,7 @@ Politico enables citizens to  give their mandate to politicians running for diff
   * All users features
   * Create a political party
   * Delete a political party
-
+  * Post Open/Vacant opprtunities
 
 
 ### Attribution
