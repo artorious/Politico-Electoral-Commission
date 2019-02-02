@@ -9,11 +9,12 @@ Politico enables citizens to  give their mandate to politicians running for diff
 * User profile page
 * View running candidates per office
 * View all registerd political parties.
+* reset user password
 
 
 ### Attribution
 * Product Specifications - [Andela Developer Challenge ](https://drive.google.com/file/d/1h_UIO7jP1wyaSfOSHMzRByFyL6dpFsYj/view)
-* Websites that inpired the design 
+* Websites that inpired the design
   * [Electoral Commision](https://www.electoralcommission.org.uk/) website.
   * [Independent Electoral and Boundaries Commission](https://wwww.iebc.or.ke)
 
